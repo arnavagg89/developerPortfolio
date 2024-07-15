@@ -1,0 +1,68 @@
+@import "../../_globalColor";
+.header {
+    background-color: $lightBackground1;
+    max-width: 100%;
+    padding: 15px 20px;
+    margin: 0px auto;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.header li a {
+    display: block;
+    padding: 15px 20px;
+    color: $textColor;
+    text-decoration: none;
+}
+
+.header li a:hover {
+    background-color: $headerHoverBG;
+  }
+  
+// .header .menu {
+//     clear: both;
+//     max-height: 0;
+//     transition: max-height 0.2s ease-out;
+//   }
+
+.header .logo {
+    display: block;
+    flex: none;
+    float: left;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-top: 10px;
+    line-height: normal;
+  }
+  
+  .header .logo-name {
+    font-family: "Agustina Regular";
+    font-weight: bold;
+    font-variant-ligatures: no-common-ligatures;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    padding: 0 10px;
+  }
+
+@media (min-width: 768px) {
+    .header li {
+      float: left;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header .menu {
+      max-height: none;
+    }
+  }
+  @media (max-width: 960px) and (min-width: 768px) {
+    .header {
+      font-size: 12px;
+    }
+  }
