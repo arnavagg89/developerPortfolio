@@ -1,6 +1,9 @@
-import { home_page, info_page } from "../../arnavAggarwal";
-import "./Greeting.scss"
-const Greeting = () => {
+import { home_page } from "../../arnavAggarwal";
+import Button from "../../components/button/Button";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
+// import uwaterloo from "./uwaterloo.png"
+import "./Home.scss"
+const Home = () => {
     return (
         <div className="home-main" id="home">
             <div className="home-submain">
@@ -11,16 +14,16 @@ const Greeting = () => {
                     <p className="home-text-p subTitle"> 
                         {home_page.description}
                     </p>
-                    {/* Insert social media bar here */}
+                    <SocialMedia/>
                     <div className="button-div">
-                        {/* <Button text = "Contact Me" href = "#contact"/> */}
+                        <Button text = "Contact Me" href = "#contact"/>
                         
                         <a
                             // href={require("./resume.pdf")}
                             // download="Resume.pdf"
-                            className="download-button"
+                            className="button-resume"
                         >
-                            {/* <Button text="Download my resume" /> */}
+                            <Button text="Download my resume" />
                         </a>
                         
                     </div>
@@ -28,6 +31,7 @@ const Greeting = () => {
                 </div>
 
                 <div className="home-image">
+                    {/* <img src={uwaterloo}/> */}
                     {/* Insert photo over here */}
                 </div>
             </div>
@@ -35,4 +39,4 @@ const Greeting = () => {
     )
 }
 
-export default Greeting;
+export default Home;

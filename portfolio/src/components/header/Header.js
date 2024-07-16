@@ -1,5 +1,7 @@
 import { home_page } from "../../arnavAggarwal";
 import "./Header.scss";
+// import ThemeSwitch from "../themeSwitch/ThemeSwitch";
+// import ThemeContext from "../../context/ThemeContext";
 const Header = () => {
     return (
         <header className="header">
@@ -26,6 +28,7 @@ const Header = () => {
                     <a href="#contact">Contact Me</a>
                 </li>
             </ul>
+            {/* <ThemeSwitch/> */}
             
         </header>
     )

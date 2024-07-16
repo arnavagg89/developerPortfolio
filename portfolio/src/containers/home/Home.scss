@@ -11,7 +11,7 @@
     display: flex;
 }
 
-.home-submain{
+.home-submain > * {
     flex: 1;
     margin-bottom: 30px;
   }
@@ -32,10 +32,14 @@
     margin-top: 20px;
   }
 
-.download-button {
+.button-resume {
     text-decoration: none;
   }
 
+.home-text-p {
+    font-size: 30px;
+    line-height: 40px;
+  }
 @media (max-width: 1380px) {
     .greeting-text {
       font-size: 50px;
@@ -65,8 +69,8 @@
     }
   }
   
-//   @media (max-width: 320px) {
-//     .main {
-//       width: auto;
-//     }
-//   }
+  // @media (max-width: 320px) {
+  //   .main {
+  //     width: auto;
+  //   }
+  // }

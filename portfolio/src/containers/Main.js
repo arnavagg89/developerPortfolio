@@ -1,10 +1,24 @@
 import Header from "../components/header/Header"
-import Greeting from "./greeting/Greeting";
+import Home from "./home/Home";
+import Education from "./education/Education";
+// import { ThemeProvider } from "../context/ThemeContext";
+import { useState } from "react";
 const Main = () => {
+
+    const [isDark, setIsDark] = useState(false);
+
+    const changeTheme = () => {
+        setIsDark(!isDark);
+    };
+
     return (
         <div>
-            <Header/>
-            <Greeting/>
+            {/* <ThemeProvider value = {{isDark: isDark, changeTheme: changeTheme}}> */}
+                <Header/>
+                <Home/>
+                <Education/>
+            {/* </ThemeProvider> */}
+            
         </div>
     )
 }
