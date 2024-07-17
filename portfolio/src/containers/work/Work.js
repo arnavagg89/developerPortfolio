@@ -2,7 +2,6 @@ import React, {useContext} from "react";
 import "./Work.scss";
 import {Fade} from "react-awesome-reveal";
 import ThemeContext from "../../context/ThemeContext";
-import kpmgLogo from "../../assets/images/KPMG.png"
 
 function Work() {
     const {isDark} = useContext(ThemeContext);
