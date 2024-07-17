@@ -1,0 +1,117 @@
+.experience-container {
+    //   display: flex;
+      width: 90%;
+      padding: 20px 10px;
+      margin: 0px auto;
+      margin-top: 2rem;
+}
+
+.experience-heading {
+    font-size: 56px;
+    font-weight: 400;
+  }
+
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+  .experience-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+@import "../../_globalColor";
+
+.experience-card {
+//   position: relative;
+  display: flex;
+  background-color: $lightBackground2;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
+  padding: 2% 4% 4% 4%;
+  margin: 2% 0%;
+}
+
+.experience-card:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+.dark {
+  color: $textColorDark !important;
+  background-color: $darkBackground;
+}
+
+.dark.experience-card:hover{
+    box-shadow: $darkBoxShadow 0px 20px 30px -10px;
+}
+
+/* Media Query */
+
+// @media (max-width: 1380px) {
+//   .experience-text-role {
+//     padding-top: 0.5rem;
+//     font-size: 22px;
+//   }
+//   .experience-text-company {
+//     font-size: 22px;
+//   }
+//   .experience-text-date {
+//     font-size: 18px;
+//   }
+//   .experience-roundedimg {
+//     width: 6.5rem;
+//     height: 6.5rem;
+//   }
+// }
+
+// @media (max-width: 768px) {
+//   .experience-text-role {
+//     font-size: 22px;
+//   }
+//   .experience-text-company {
+//     font-size: 22px;
+//   }
+//   .experience-text-date {
+//     font-size: 18px;
+//   }
+//   .experience-text-desc {
+//     font-size: 16px;
+//   }
+// }
+
+.company-div-left {
+    width: 40%;
+}
+
+.company-name{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.company-div-right{
+    width: 60%;
+    text-align: left;
+}
+
+.company-info {
+    font-size: 16px;
+    margin: 0px;
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+.company-position {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+.company-desc {
+    font-weight: 200;
+}

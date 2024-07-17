@@ -3,7 +3,7 @@ import Header from "../components/header/Header";
 import Welcome from "./welcome/Welcome";
 import About from "./about/About"
 import Education from "./education/Education"
-// import Work from "./work/Work"
+import Work from "./work/Work"
 import {ThemeProvider} from "../context/ThemeContext"
 import "./Main.scss";
 
@@ -21,7 +21,7 @@ const Main = () => {
             <Welcome />
             <About/>
             <Education/>
-            {/* <Work/> */}
+            <Work/>
             {/* 
             <WorkExperience />
             <Projects />
