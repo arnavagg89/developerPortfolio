@@ -22,7 +22,7 @@ function Work() {
                         <p className="company-info">September 2020 - August 2024</p>
                     </div>
                     <div className="company-div-right">
-                        <h5 className="company-position">Software Engineering Intern</h5>
+                        <h2 className="company-position">Software Engineering Intern</h2>
                         <p className="company-desc">Insert a big para for KPMG here.Insert a big para for KPMG here.Insert a big para for KPMG here.Insert a big para for KPMG here.Insert a big para for KPMG hereInsert a big para for KPMG herev.Insert a big para for KPMG here</p>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ function Work() {
                         <p className="company-info">September 2020 - August 2024</p>
                     </div>
                     <div className="company-div-right">
-                        <h5 className="company-position">Software Engineering Intern</h5>
+                        <h2 className="company-position">Software Engineering Intern</h2>
                         <p className="company-desc">Insert a big para for KPMG here.Insert a big para for KPMG here.Insert a big para for KPMG here.Insert a big para for KPMG here.Insert a big para for KPMG hereInsert a big para for KPMG herev.Insert a big para for KPMG here</p>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ function Work() {
                         <p className="company-info">September 2020 - August 2024</p>
                     </div>
                     <div className="company-div-right">
-                        <h5 className="company-position">Software Engineering Intern</h5>
+                        <h2 className="company-position">Software Engineering Intern</h2>
                         <p className="company-desc">Insert a big para for KPMG here.Insert a big para for KPMG here.Insert a big para for KPMG here.Insert a big para for KPMG here.Insert a big para for KPMG hereInsert a big para for KPMG herev.Insert a big para for KPMG here</p>
                     </div>
                 </div>

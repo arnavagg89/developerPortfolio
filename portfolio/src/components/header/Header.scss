@@ -2,11 +2,11 @@
 
 .dark-menu {
   background-color: $darkBackground !important;
-  color: $textColorDark;
+  color: white;
 }
 
 .dark-menu li a {
-  color: $textColorDark !important;
+  color: white !important;
 }
 
 .dark-menu li a:hover {
@@ -74,7 +74,7 @@
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
+  // float: right;
   padding: 28px 20px;
   position: relative;
   user-select: none;

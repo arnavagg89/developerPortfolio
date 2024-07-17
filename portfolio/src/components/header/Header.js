@@ -26,19 +26,23 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
 
-        <ul className={isDark ? "dark-menu menu" : "menu"}>
+        <ul className={(isDark ? "dark-menu" : "") + "menu"}>
             <li>
-              <a href="#skills">Skills</a>
-            </li>
-          
-            <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#about">About Me</a>
             </li>
           
             <li>
               <a href="#education">Education</a>
             </li>
+
+            <li>
+              <a href="#experience">Work Experiences</a>
+            </li>
           
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+
             <li>
                 <a href="#contact">Contact Me</a>
             </li>

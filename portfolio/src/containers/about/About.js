@@ -9,7 +9,7 @@ function About() {
   const {isDark} = useContext(ThemeContext);
 
   return (
-    <div className={isDark ? "dark-mode main" : "main"} id="skills">
+    <div className={isDark ? "dark-mode main" : "main"} id="about">
       <div className="skills-main-div">
         <Fade left duration={1000}>
           <div className="skills-image-div">
