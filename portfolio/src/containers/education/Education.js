@@ -1,13 +1,13 @@
 import "./Education.scss"
 import { universityDetails } from "../../arnavAggarwal";
-// import {Fade, Slide} from "react-reveal";
+import {Fade, Slide} from "react-awesome-reveal";
 import uwaterloo_logo from "../../assets/images/uwaterloo.png"
 
 function Education() {
     return (
         <div className="education-section" id="education">
             <h1 className="education-heading"> Education</h1>
-            {/* <Fade left duration = {1000}> */}
+            <Fade left duration = {1000}>
             <div className="education-card">
                 <div className="education-card-left">
                     <img src ={uwaterloo_logo}></img>
@@ -36,7 +36,10 @@ function Education() {
                     </div>
                 </div>
             </div>
-            {/* </Fade> */}
+            </Fade>
+            <Slide left duration={2000}>
+                <div className="education-card-border"></div>
+            </Slide>
         </div>
     )
 }
