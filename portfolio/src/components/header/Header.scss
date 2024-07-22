@@ -1,4 +1,20 @@
 @import "../../_globalColor";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+
+.header-name {
+  font-family: "Caveat";
+  font-weight: 700;
+  // padding: 0 10px; 
+}
+
+.logo {
+  font-size: 2em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 .dark-menu {
   background-color: $darkBackground !important;
@@ -18,6 +34,7 @@
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
+  color: lightseagreen;
 }
 
 .header ul {
@@ -28,7 +45,7 @@
 }
 
 .grey-color {
-  color: $subTitle;
+  color: #868e96;
 }
 
 .header li a {
@@ -43,23 +60,6 @@
   background-color: $headerHoverBG;
 }
 
-.header .logo {
-  display: block;
-  flex: none;
-  float: left;
-  font-size: 1.5em;
-  text-decoration: none;
-  margin-top: 10px;
-  line-height: normal;
-}
-
-.header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 10px;
-}
 
 /* menu */
 

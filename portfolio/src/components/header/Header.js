@@ -12,7 +12,7 @@ function Header() {
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
-          <span className="logo-name">Arnav Aggarwal</span>
+          <span className="header-name"> Arnav Aggarwal </span>
           <span className="grey-color">/&gt;</span>
         </a>
 
