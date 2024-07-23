@@ -85,8 +85,9 @@ export default function Education() {
             
                             <div className="education-text-bullets">
                                 <ul>
-                                <li>Joined some club</li>
-                                <li>clutched 3.7 cgpa</li>
+                                <li>Completed Advanced Coursework on Data Stuctures and Algorithms, Operating System, Machine Learning, Artificial Intelligence, Computer Vision with an overall CGPA of 3.7/4</li>
+                                <li>Part of UW Data Science club, Computer Science Club along with being a part of multiple hackathons</li>
+                                <li>Completed 5 full coops terms with 4 excellent and 1 outstanding rating</li>
                                 </ul>
                             </div>
                         </div>

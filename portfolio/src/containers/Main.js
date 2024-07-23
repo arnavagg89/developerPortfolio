@@ -9,7 +9,7 @@ import {ThemeProvider} from "../context/ThemeContext"
 import "./Main.scss";
 
 const Main = () => {
-  const [isDark, setIsDark] = React.useState(false)
+  const [isDark, setIsDark] = React.useState(true)
 
   const changeTheme = () => {
     setIsDark(!isDark);

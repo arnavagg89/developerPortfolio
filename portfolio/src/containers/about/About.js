@@ -22,7 +22,12 @@ function About() {
               About Me
             </h1>
             <p className={isDark? "dark-mode subTitle skills-text-subtitle": "subTitle skills-text-subtitle"}>
-              Insert About Me
+              Hi and welcome to my portfolio. I am a final year student at the university of waterloo and specialize in Software Engineering and Artificial Intelligence. 
+              I entered this field because of my ever growing curiosity around technology and innovation. 
+              <br/>
+              Software engineering gives me the power to contribute to the rapid innovation and build stuff that can make a difference in people's lives. I find development to be a way to embody one's thoughts and ideas into a practical creation which is a testimony to all the experiences envolved in manufacturing the result. 
+              <br/>
+              In addition, I have long seen Artificial Intelligence as the future companion of mankind long before chatgpt became a part of it. I keep in touch with the advances in AI and focus on doing my part in it. I deeply care about the future of AI and its safety along with envisioning the enormous possibilities that surround it.  
             </p>
           </div>
         </Fade>
